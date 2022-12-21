@@ -1,0 +1,33 @@
+form {    
+    background-color: rgb(7, 54, 54);    
+    height: 100vh;    
+    text-align: center;       
+}
+
+mat-form-field{
+    margin-top: 15px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 15rem auto;
+}
+
+.pokemon{
+    display: flex;
+    height: 200px;
+    
+}
+
+mat-card{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(110, 204, 207);
+}
+
+a{
+    margin-left: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+}
